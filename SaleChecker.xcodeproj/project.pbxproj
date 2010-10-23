@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SaleCheckerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SaleCheckerAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		D850B7EF0FA8C30900E8CF3D /* Measure.m in Sources */ = {isa = PBXBuildFile; fileRef = D850B7EE0FA8C30900E8CF3D /* Measure.m */; };
+		D850B7F20FA8C32000E8CF3D /* PricePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D850B7F10FA8C32000E8CF3D /* PricePoint.m */; };
+		D850B8A90FA8E3EB00E8CF3D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D850B8A80FA8E3EB00E8CF3D /* libsqlite3.dylib */; };
+		D850B91C0FA8E67400E8CF3D /* default_pricebook.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D850B91B0FA8E67400E8CF3D /* default_pricebook.sqlite3 */; };
+		D850BA120FA9193500E8CF3D /* AddProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = D850BA110FA9193500E8CF3D /* AddProductController.m */; };
+		D8843F700FB0D3810032FC9F /* AddItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8843F6F0FB0D3810032FC9F /* AddItemController.m */; };
+		D891C1EC0FAA662400DD352C /* EditProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = D891C1EB0FAA662400DD352C /* EditProductController.m */; };
+		D891C26F0FAA6C6200DD352C /* EditableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D891C26E0FAA6C6200DD352C /* EditableTextCell.m */; };
+		D89F33280FA6708D0068C1EC /* GroceryListController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89F33270FA6708D0068C1EC /* GroceryListController.m */; };
+		D89F332B0FA678680068C1EC /* GroceryList.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89F332A0FA678680068C1EC /* GroceryList.xib */; };
+		D89F33940FA6AC760068C1EC /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = D89F33930FA6AC760068C1EC /* Product.m */; };
+		D89F33AB0FA6B1B50068C1EC /* ProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89F33AA0FA6B1B50068C1EC /* ProductController.m */; };
+		D8BD2CB60FB5221F005E93A0 /* DBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD2CB50FB5221F005E93A0 /* DBObject.m */; };
+		D8F73B2D0FA7AF4E008A6821 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F73B2C0FA7AF4E008A6821 /* Item.m */; };
+		D8F73B300FA7B164008A6821 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F73B2F0FA7B164008A6821 /* Store.m */; };
+		D8F73BDF0FA80384008A6821 /* ItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F73BDE0FA80384008A6821 /* ItemController.m */; };
+		D8F73C8C0FA816D1008A6821 /* SaleChecker57.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F73C8B0FA816D1008A6821 /* SaleChecker57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SaleCheckerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleCheckerAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SaleCheckerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleCheckerAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SaleChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaleChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SaleChecker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleChecker_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SaleChecker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SaleChecker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D850B7ED0FA8C30900E8CF3D /* Measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measure.h; sourceTree = "<group>"; };
+		D850B7EE0FA8C30900E8CF3D /* Measure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measure.m; sourceTree = "<group>"; };
+		D850B7F00FA8C32000E8CF3D /* PricePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PricePoint.h; sourceTree = "<group>"; };
+		D850B7F10FA8C32000E8CF3D /* PricePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PricePoint.m; sourceTree = "<group>"; };
+		D850B8A80FA8E3EB00E8CF3D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D850B91B0FA8E67400E8CF3D /* default_pricebook.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = default_pricebook.sqlite3; sourceTree = "<group>"; };
+		D850BA100FA9193500E8CF3D /* AddProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProductController.h; sourceTree = "<group>"; };
+		D850BA110FA9193500E8CF3D /* AddProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProductController.m; sourceTree = "<group>"; };
+		D8843F6E0FB0D3810032FC9F /* AddItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemController.h; sourceTree = "<group>"; };
+		D8843F6F0FB0D3810032FC9F /* AddItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemController.m; sourceTree = "<group>"; };
+		D891C1EA0FAA662400DD352C /* EditProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductController.h; sourceTree = "<group>"; };
+		D891C1EB0FAA662400DD352C /* EditProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductController.m; sourceTree = "<group>"; };
+		D891C26D0FAA6C6200DD352C /* EditableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTextCell.h; sourceTree = "<group>"; };
+		D891C26E0FAA6C6200DD352C /* EditableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTextCell.m; sourceTree = "<group>"; };
+		D89F33260FA6708D0068C1EC /* GroceryListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryListController.h; sourceTree = "<group>"; };
+		D89F33270FA6708D0068C1EC /* GroceryListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryListController.m; sourceTree = "<group>"; };
+		D89F332A0FA678680068C1EC /* GroceryList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroceryList.xib; sourceTree = "<group>"; };
+		D89F33920FA6AC760068C1EC /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		D89F33930FA6AC760068C1EC /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		D89F33A90FA6B1B50068C1EC /* ProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductController.h; sourceTree = "<group>"; };
+		D89F33AA0FA6B1B50068C1EC /* ProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductController.m; sourceTree = "<group>"; };
+		D8BD2CB40FB5221F005E93A0 /* DBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBObject.h; sourceTree = "<group>"; };
+		D8BD2CB50FB5221F005E93A0 /* DBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBObject.m; sourceTree = "<group>"; };
+		D8F73B2B0FA7AF4E008A6821 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		D8F73B2C0FA7AF4E008A6821 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		D8F73B2E0FA7B164008A6821 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		D8F73B2F0FA7B164008A6821 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		D8F73BDD0FA80384008A6821 /* ItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemController.h; sourceTree = "<group>"; };
+		D8F73BDE0FA80384008A6821 /* ItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemController.m; sourceTree = "<group>"; };
+		D8F73C8B0FA816D1008A6821 /* SaleChecker57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SaleChecker57.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				D850B8A90FA8E3EB00E8CF3D /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D89F33C20FA6B3370068C1EC /* Model */,
+				D891C28E0FAA6E1800DD352C /* View */,
+				D891C32A0FAA7A1900DD352C /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SaleChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SaleChecker_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D850B91B0FA8E67400E8CF3D /* default_pricebook.sqlite3 */,
+				D8F73C8B0FA816D1008A6821 /* SaleChecker57.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SaleChecker-Info.plist */,
+				D89F332A0FA678680068C1EC /* GroceryList.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D850B8A80FA8E3EB00E8CF3D /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D891C28E0FAA6E1800DD352C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D891C26D0FAA6C6200DD352C /* EditableTextCell.h */,
+				D891C26E0FAA6C6200DD352C /* EditableTextCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D891C32A0FAA7A1900DD352C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D89F33260FA6708D0068C1EC /* GroceryListController.h */,
+				D89F33270FA6708D0068C1EC /* GroceryListController.m */,
+				D89F33A90FA6B1B50068C1EC /* ProductController.h */,
+				D89F33AA0FA6B1B50068C1EC /* ProductController.m */,
+				D850BA100FA9193500E8CF3D /* AddProductController.h */,
+				D850BA110FA9193500E8CF3D /* AddProductController.m */,
+				D891C1EA0FAA662400DD352C /* EditProductController.h */,
+				D891C1EB0FAA662400DD352C /* EditProductController.m */,
+				D8F73BDD0FA80384008A6821 /* ItemController.h */,
+				D8F73BDE0FA80384008A6821 /* ItemController.m */,
+				D8843F6E0FB0D3810032FC9F /* AddItemController.h */,
+				D8843F6F0FB0D3810032FC9F /* AddItemController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D89F33C20FA6B3370068C1EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SaleCheckerAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SaleCheckerAppDelegate.m */,
+				D89F33920FA6AC760068C1EC /* Product.h */,
+				D89F33930FA6AC760068C1EC /* Product.m */,
+				D8F73B2B0FA7AF4E008A6821 /* Item.h */,
+				D8F73B2C0FA7AF4E008A6821 /* Item.m */,
+				D8F73B2E0FA7B164008A6821 /* Store.h */,
+				D8F73B2F0FA7B164008A6821 /* Store.m */,
+				D850B7ED0FA8C30900E8CF3D /* Measure.h */,
+				D850B7EE0FA8C30900E8CF3D /* Measure.m */,
+				D850B7F00FA8C32000E8CF3D /* PricePoint.h */,
+				D850B7F10FA8C32000E8CF3D /* PricePoint.m */,
+				D8BD2CB40FB5221F005E93A0 /* DBObject.h */,
+				D8BD2CB50FB5221F005E93A0 /* DBObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sale Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sale Checker" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sale Checker";
+			productName = SaleChecker;
+			productReference = 1D6058910D05DD3D006BFB54 /* SaleChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SaleChecker" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sale Checker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				D89F332B0FA678680068C1EC /* GroceryList.xib in Resources */,
+				D8F73C8C0FA816D1008A6821 /* SaleChecker57.png in Resources */,
+				D850B91C0FA8E67400E8CF3D /* default_pricebook.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SaleCheckerAppDelegate.m in Sources */,
+				D89F33280FA6708D0068C1EC /* GroceryListController.m in Sources */,
+				D89F33940FA6AC760068C1EC /* Product.m in Sources */,
+				D89F33AB0FA6B1B50068C1EC /* ProductController.m in Sources */,
+				D8F73B2D0FA7AF4E008A6821 /* Item.m in Sources */,
+				D8F73B300FA7B164008A6821 /* Store.m in Sources */,
+				D8F73BDF0FA80384008A6821 /* ItemController.m in Sources */,
+				D850B7EF0FA8C30900E8CF3D /* Measure.m in Sources */,
+				D850B7F20FA8C32000E8CF3D /* PricePoint.m in Sources */,
+				D850BA120FA9193500E8CF3D /* AddProductController.m in Sources */,
+				D891C1EC0FAA662400DD352C /* EditProductController.m in Sources */,
+				D891C26F0FAA6C6200DD352C /* EditableTextCell.m in Sources */,
+				D8843F700FB0D3810032FC9F /* AddItemController.m in Sources */,
+				D8BD2CB60FB5221F005E93A0 /* DBObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SaleChecker_Prefix.pch;
+				INFOPLIST_FILE = "SaleChecker-Info.plist";
+				PRODUCT_NAME = SaleChecker;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SaleChecker_Prefix.pch;
+				INFOPLIST_FILE = "SaleChecker-Info.plist";
+				PRODUCT_NAME = SaleChecker;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sale Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SaleChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
